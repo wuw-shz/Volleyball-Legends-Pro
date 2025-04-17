@@ -1,4 +1,4 @@
-# Volleyball Legends Pro v1.0
+# Volleyball Legends Pro v1.0.0
 
 Volleyball Legends Pro is a specialized Roblox automation tool was created to help with Roblox [Volleyball Legends](https://www.roblox.com/games/73956553001240/Volleyball-Legends) mechanics. It offers pixel-perfect timing for spikes, jump sets, and serves.
 
@@ -66,6 +66,15 @@ The project is structured into several key components:
 #### Shared Memory
 - [**sharedMemory.py**](./src/sharedMemory/SharedMemory.py) <-> [**SharedMemory.cpp**](./src/sharedMemory/SharedMemory.cpp) ([**SharedMemory.h**](./src/sharedMemory/SharedMemory.h))
 - Used for inter-process communication between Python and C++ components
+
+## Developer Guide
+
+For developers interested in contributing to Volleyball Legends Pro, please see the [CONTRIBUTING.md](./CONTRIBUTING.md) file for detailed information about:
+
+- Development requirements and setup
+- Project structure and architecture
+- Build process and versioning
+- Code style guidelines and contribution workflow
 
 ## Notes
 

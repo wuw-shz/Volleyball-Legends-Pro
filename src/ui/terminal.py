@@ -6,6 +6,7 @@ import logging
 import requests
 from typing import Optional
 from unittest.mock import patch
+from version import VERSION_FULL
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
@@ -23,7 +24,7 @@ def start() -> None:
 def terminal_ui_loop() -> None:
     while True:
         os.system("cls")
-        print("( Volleyball Legends Pro )\n")
+        print(f"( Volleyball Legends Pro v{VERSION_FULL} )\n")
         print(f"Ping value: {main.PING}ms")
         # print(last_geo_info)
         user_input = input("Enter new ping value in ms: ").strip()

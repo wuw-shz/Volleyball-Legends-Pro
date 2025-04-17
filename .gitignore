@@ -1,5 +1,24 @@
-__pycache__
-build
-dist
-.vs
-x64
+# Build artifacts
+x64/
+/build/
+/dist/
+/releases/
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec
+!tools/build/volleyball_legends_pro.spec
+
+# Development tools
+.vs/
+.vscode/
+.idea/
+
+# Local environment
+venv/
+env/
+.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
