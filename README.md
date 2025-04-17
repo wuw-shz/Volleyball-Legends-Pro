@@ -90,7 +90,7 @@ For developers interested in contributing to Volleyball Legends Pro, please see 
 - Automatically activates when the Roblox window is in focus
 - Uses pixel color detection for timing critical actions
 - **Performance-optimized**:
-  - Ultra-responsive with 3-5ms end-to-end latency
+  - Ultra-responsive with ~5ms end-to-end latency
   - Optimized for precision timing in serves, sets, and spikes
   - Minimal resource usage (~2-5% CPU, <100MB RAM)
   - No frame rate impact on Roblox during use
