@@ -13,9 +13,9 @@ Volleyball Legends Pro is a specialized Roblox automation tool was created to he
   - Jump spike timing
   - Reset Character functionality
 - **High-performance architecture**:
-  - Ultra-low latency (3-5ms total response time)
+  - Ultra-low latency (~5ms total response time)
   - C++ detection engine with sub-millisecond processing
-  - Serve timing precision within 2-3ms of optimal window
+  - Serve timing precision within ~3ms of optimal window
   - Hybrid architecture combining C++ speed with Python flexibility
   - Efficient shared memory for inter-process communication
   - Optimized for real-time gameplay with millisecond precision
