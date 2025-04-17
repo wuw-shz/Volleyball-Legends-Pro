@@ -72,7 +72,7 @@ The project is structured into several key components:
 - [**resets.py**](./src/macros//resets.py) - Resets player charactor
 
 #### Shared Memory
-- [**sharedMemory.py**](./src/sharedMemory/SharedMemory.py) <-> [**SharedMemory.cpp**](./src/sharedMemory/SharedMemory.cpp) ([**SharedMemory.h**](./src/sharedMemory/SharedMemory.h))
+- [**SharedMemory.py**](./src/sharedMemory/SharedMemory.py) <-> [**SharedMemory.cpp**](./src/sharedMemory/SharedMemory.cpp) ([**SharedMemory.h**](./src/sharedMemory/SharedMemory.h))
 - Used for inter-process communication between Python and C++ components
 
 ## Developer Guide
