@@ -1,3 +1,4 @@
+import os
 from version import VERSION_MAJOR, VERSION_MINOR, VERSION_PATCH, VERSION_FULL, RELEASE_NAME
 
 def generate_version_info():
@@ -50,5 +51,16 @@ VSVersionInfo(
     
     print(f"Generated file_version_info.txt with version {VERSION_FULL}")
 
+def ensure_icon_exists():
+    if not os.path.exists('assets/app_icon.ico'):
+        try:
+            print("Icon not found. Creating default volleyball icon...")
+            from assets.app_icon import create_volleyball_icon
+            create_volleyball_icon()
+        except ImportError:
+            print("WARNING: Could not create icon file. Install Pillow or provide an icon manually.")
+            print("You can create an icon manually and save it as 'app_icon.ico'")
+
 if __name__ == "__main__":
-    generate_version_info() 
+    generate_version_info()
+    ensure_icon_exists() 

@@ -39,6 +39,7 @@ exe = EXE(
     codesign_identity=None,
     entitlements_file=None,
     version='file_version_info.txt',
+    icon='assets/app_icon.ico',
 )
 
 coll = COLLECT(

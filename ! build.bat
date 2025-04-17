@@ -1,0 +1,3 @@
+@echo off
+echo Starting Volleyball Legends Pro build process...
+python build.py 

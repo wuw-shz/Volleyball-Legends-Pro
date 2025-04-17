@@ -1,7 +1,7 @@
 import os
 import zipfile
 import datetime
-from version import VERSION, RELEASE_NAME
+from version import VERSION, RELEASE_NAME, VERSION_FULL
 
 DIST_DIR = "dist/VolleyballLegendsPro"
 OUTPUT_DIR = "releases"
@@ -27,7 +27,7 @@ def create_release_package():
         os.makedirs(OUTPUT_DIR)
 
     now = datetime.datetime.now()
-    zip_filename = f"{OUTPUT_DIR}/{RELEASE_NAME.replace(' ', '')} v{VERSION}.zip"
+    zip_filename = f"{OUTPUT_DIR}/{RELEASE_NAME.replace(' ', '')}_v{VERSION_FULL}.zip"
 
     if os.path.exists(zip_filename):
         os.remove(zip_filename)
