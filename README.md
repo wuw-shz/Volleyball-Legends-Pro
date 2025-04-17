@@ -69,7 +69,7 @@ The project is structured into several key components:
 - [**serves.py**](./src/macros/serves.py) - Handles different serve types ([Normal](./src/macros/serve/normal.py), [Advanced](./src/macros/serve/advanced.py), [Skill](./src/macros/serve/skill.py))
 - [**jumpset.py**](./src/macros/jumpset.py) - Manages jump set mechanics
 - [**jumpspike.py**](./src/macros/jumpspike.py) - Controls jump spike timing and execution
-- [**resets.py**](./src/macros//resets.py) - Resets player state
+- [**resets.py**](./src/macros//resets.py) - Resets player charactor
 
 #### Shared Memory
 - [**sharedMemory.py**](./src/sharedMemory/SharedMemory.py) <-> [**SharedMemory.cpp**](./src/sharedMemory/SharedMemory.cpp) ([**SharedMemory.h**](./src/sharedMemory/SharedMemory.h))
