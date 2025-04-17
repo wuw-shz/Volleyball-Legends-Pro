@@ -1,0 +1,11 @@
+{
+   "files.associations": {
+      "*.material": "json",
+      "*.fragment": "c",
+      "*.vertex": "c",
+      "vector": "cpp",
+      "iostream": "cpp",
+      "thread": "cpp"
+   },
+   "deepscan.ignoreConfirmWarning": true
+}
